@@ -14,6 +14,7 @@ from selenium.webdriver.edge.service import Service
 service_obj = Service("C:/Users/ADMIN/Documents/msedgedriver")
 driver = webdriver.Edge(service=service_obj)
 #P (modified 1 by Y)
+#P (modified 2 by X)
 driver.maximize_window()
 driver.get("https://rahulshettyacademy.com")
 print(driver.title)
